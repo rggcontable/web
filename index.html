@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Contables - RGG Gestor Contable</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <div class="container">
+            <div class="profile">
+                <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
+                <h1>RGG Gestor Contable</h1>
+                <h2>Expertos en Contabilidad, Finanzas y Asesoría Fiscal</h2>
+                <p>Ofrecemos servicios integrales de contabilidad y asesoría fiscal para autónomos y pequeñas empresas. Nuestro equipo está especializado en la gestión de impuestos, elaboración de balances, y asesoramiento financiero personalizado.</p>
+                <h3>Áreas de Especialización</h3>
+                <div class="expertise">
+                    <a href="#">Contabilidad General</a>
+                    <a href="#">Gestión de Impuestos</a>
+                    <a href="#">Asesoría Fiscal</a>
+                    <a href="#">Planificación Financiera</a>
+                    <a href="#">Declaraciones de Renta</a>
+                    <a href="#">Auditoría Interna</a>
+                    <a href="#">Optimización de Costes</a>
+                    <a href="#">Análisis Financiero</a>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="button resume">Sobre Nosotros</a>
+                    <a href="#" class="button portfolio">Servicios</a>
+                    <a href="#" class="button blog">Blog</a>
+                    <a href="#contacto" class="button contact">Contacto</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Contacto -->
+        <div id="contacto" class="container">
+            <h2>Contacto</h2>
+            <form action="enviar_correo.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

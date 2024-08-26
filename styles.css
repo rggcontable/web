@@ -1,0 +1,107 @@
+/* Estilos para la barra de navegación */
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Estilos para el perfil */
+.container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.profile p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.profile h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.expertise a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.expertise a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para los botones */
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume {
+    background-color: #ffc107;
+}
+
+.portfolio {
+    background-color: #007bff;
+}
+
+.blog {
+    background-color: #28a745;
+}
+
+.contact {
+    background-color: #dc3545;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
